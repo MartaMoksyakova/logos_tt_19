@@ -1,0 +1,9 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin boxWH(){
+    width: 100px;
+    height: 100%;
+}
