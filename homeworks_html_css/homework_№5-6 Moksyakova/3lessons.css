@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Chronica Pro";
+    src: url(./ChronicaPro-Regular/ChronicaPro-Regular.ttf);
+}
+@font-face {font-family: "SultanNahiaW20";
+    src: url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.eot"); 
+    src: url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.eot?#iefix") format("embedded-opentype"),
+     url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.woff2") format("woff2"),
+      url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.ttf") format("truetype"), 
+       url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.svg#SultanNahiaW20") format("svg"); }
+*{
+    margin: 0;
+    padding: 0;
+}
+input[type=checkbox]{
+ display: none;
+}
+.display-flex-header{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: "SultanNahiaW20";
+    font-size: 20px;
+    color: black;
+}
+li a:hover{
+    color: rgb(5, 5, 212);
+}
+.flexBox-gray{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    margin: 0 20px 20px 20px;
+}
+.font_black{
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    font-size: 16px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    width: 260px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: inherit;
+}
+.border_radius_start{
+    border-radius: 15px 0 0 15px;
+}
+.border_radius_end{
+    border-radius:  0 15px 15px 0; 
+}
+.icons_decoration {
+    color: rgb(68, 68, 68);
+    width: 30px;
+    padding: 2px 0;
+    font-size: 18px;
+    text-align: center;
+    border: rgb(206, 206, 206) solid 1px;
+    border-radius: 8px;
+    margin: auto;
+}
+.background_white:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.icons_decoration:hover{
+    background-color: rgb(94, 94, 209);
+    transition: 0.3s;
+}
+.uil-download-alt:hover{
+    color: white;
+}
+input[type=checkbox] + label:before {
+    content: "\2713";
+    color: transparent;
+    display: inline-block;
+    /* border: 1px solid rgb(88, 87, 87); */
+    font-size: 15px;    
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    transition: color ease .3s;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+input[type=checkbox]:checked + label:before {
+    color: white;
+    background-color: rgb(21, 103, 224);
+}
+label::before {
+    background-color:  white;
+}

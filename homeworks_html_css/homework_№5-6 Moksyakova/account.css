@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "Chronica Pro";
+    src: url(./ChronicaPro-Regular/ChronicaPro-Regular.ttf);
+}
+@font-face {font-family: "SultanNahiaW20";
+    src: url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.eot"); 
+    src: url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.eot?#iefix") format("embedded-opentype"),
+     url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.woff2") format("woff2"),
+      url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.ttf") format("truetype"), 
+       url("//db.onlinewebfonts.com/t/9343496bb158886797785c1dfe92365f.svg#SultanNahiaW20") format("svg"); }
+*{
+    margin: 0;
+    padding: 0;
+}
+.display-flex-header{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: "SultanNahiaW20";
+    font-size: 20px;
+    color: black;
+}
+li a:hover{
+    color: rgb(5, 5, 212);
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1480px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: rgb(231, 227, 227);
+    margin: 0 auto;
+}
+.flex-box-icons{
+    width: 100px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.uil.uil-monitor{
+    width: 60px;
+    height: 50px;
+    font-size: 40px;
+    overflow: hidden;
+    /* transition: .5s; */
+}
+.uil-monitor{
+    color: white;
+}
+.uil.uil-monitor:hover{
+    background-color: rgb(5, 95, 212);
+    border-radius: 10px;
+    width: 180px;
+    transition: .5s;
+}
+.uil.uil-folder{
+    width: 60px;
+    height: 50px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.uil.uil-folder:hover{
+    background-color: rgb(5, 95, 212);
+    border-radius: 10px;
+    width: 180px;
+    transition: .5s;
+}
+.uil.uil-cloud-share{
+    width: 60px;
+    height: 50px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.uil.uil-cloud-share:hover{
+    background-color: rgb(5, 95, 212);
+    border-radius: 10px;
+    width: 180px;
+    transition: .5s;
+}
+.uil.uil-users-alt{
+    width: 60px;
+    height: 50px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.uil.uil-users-alt:hover{
+    background-color: rgb(5, 5, 212);
+    border-radius: 10px;
+    width: 180px;
+    transition: .5s;
+}
+.uil.uil-cog{
+    width: 60px;
+    height: 50px;
+    font-size: 40px;
+    overflow: hidden;
+}
+.uil.uil-cog:hover{
+    background-color: rgb(5, 95, 212);
+    border-radius: 10px;
+    width: 180px;
+    transition: .5s;
+}
+.uil:hover{
+    color: white;
+}
+span{
+    font-size: 20px;
+    white-space: nowrap;
+}
+.flex_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1100px;
+    height: 600px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.flexBox_left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 600px;
+}
+.flexBox_white_top{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+.flexBox_white_bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 430px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.flexBox_right{
+    display: flex;
+    width: 700px;
+    height: 600px;
+}
+.flexBox_right_white{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.text-1{
+    font-family: "SultanNahiaW20";
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;   
+}
+.text-2{
+    font-family: "SultanNahiaW20";
+    font-size: 15px;
+    margin-left: 25px;
+    color: rgb(211, 210, 210);
+}
+.textBox{
+    width: 120px;
+    height: 110px;
+    padding-top: 40px;
+}
+.textBox2{
+    width: 320px;
+    height: 80px;
+    padding-top: 40px;
+}
+input[type="password"]{
+    width: 400px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid rgb(228, 215, 215);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(168, 159, 159);
+}
+input[type="button"]{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 350px;
+    font-family: "SultanNahiaW20";
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+[type="password"]:focus{
+    outline: none;
+    border-radius: 5px;
+    border: 1.5px solid rgb(0, 132, 255);
+}
+[type="button"]:focus{
+    outline: none;
+}
+input[type="password"]::placeholder{
+    font-family: "SultanNahiaW20";
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(138, 133, 133);
+}
+p{
+    font-family: "SultanNahiaW20" ;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+input[type="text"]{
+    width: 600px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid rgb(228, 215, 215);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(168, 159, 159);
+}
+[type="text"]:focus{
+    outline: none;
+    border-radius: 5px;
+    border: 1.5px solid rgb(0, 132, 255);
+}
+input[type="text"]::placeholder{
+    font-family: "SultanNahiaW20";
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(138, 133, 133);
+}
+input[type="text2"]{
+    width: 600px;
+    height: 55px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid rgb(228, 215, 215);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgb(168, 159, 159);
+}
+[type="text2"]:focus{
+    outline: none;
+    border-radius: 7px;
+    border: 1.5px solid rgb(0, 132, 255);
+}
+input[type="text2"]::placeholder{
+    font-family: "SultanNahiaW20";
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(138, 133, 133);
+}
+input[type="text3"]{
+    width: 285px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid rgb(228, 215, 215);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgb(168, 159, 159);
+}
+[type="text3"]:focus{
+    outline: none;
+    border-radius: 7px;
+    border: 1.5px solid rgb(0, 132, 255);
+}
+input[type="text3"]::placeholder{
+    font-family: "SultanNahiaW20";
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(138, 133, 133);
+}
+.text1{
+    display: inline-block;
+    font-family: "SultanNahiaW20";
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text2{
+    display: inline-block;
+    font-family: "SultanNahiaW20";
+    margin-left: 260px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text2-1{
+    display: inline-block;
+    font-family: "SultanNahiaW20";
+    margin-left: 275px;
+    margin-top: 10px;
+    font-size: 20px; 
+}
+input[type="button2"]{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(0, 132, 255);
+    border-radius: 8px;
+    margin-top: 90px;
+    margin-left: 550px;
+    font-family: "SultanNahiaW20";
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+[type="button2"]:focus{
+    outline: none;
+}

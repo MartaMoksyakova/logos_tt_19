@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Chronica Pro ';
+    src: local('Chronica Pro  Regular'), local('Chronica-Pro--Regular'),
+        url('ChronicaPro-Regular.woff2') format('woff2'),
+        url('ChronicaPro-Regular.woff') format('woff'),
+        url('ChronicaPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
