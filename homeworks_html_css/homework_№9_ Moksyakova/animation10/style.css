@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(216, 146, 175);
+  }
+  
+  h1 {
+    margin: 30vh 0 0 45%;
+  }
+  
+  .container {
+    width: 50%;
+    height: 10%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+    animation-delay: 2s;
+  }
+  
+  .circle1 {
+    --color: 255, 255, 255;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle2 {
+    --color: 200, 110, 134;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle3 {
+    --color: 225, 265, 150;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle4 {
+    --color: 171, 140, 121;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle5 {
+    --color: 229, 180, 169;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle6 {
+    --color: 32, 47, 115;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle7 {
+    --color: 123, 100, 129;
+    background-color: rgb(var(--color));
+  }
+  
+  .circle8 {
+    --color: 125, 42, 42;
+    background-color: rgb(var(--color));
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0px rgba(var(--color), 0.2);
+    }
+    50% {
+      box-shadow: 0 0 0 15px rgba(var(--color), 0.1);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(var(--color), 0);
+    }
+  }
+  

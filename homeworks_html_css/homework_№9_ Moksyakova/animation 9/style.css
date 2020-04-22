@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(122, 239, 255);
+}
+
+.box_animation{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: rgb(92, 45, 202);
+    margin: 50vh auto;
+    animation-name: box-transform;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-transform{
+    50%{
+        transform: rotate(180deg);
+        border-radius: 0px;
+        width: 120px;
+        height: 120px;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 25px;
+        width: 60px;
+        height: 60px;
+    }
+}
