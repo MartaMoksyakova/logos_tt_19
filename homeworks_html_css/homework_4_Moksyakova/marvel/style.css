@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+    max-width: 1500px;
+    height: 100vh;
+}
+header{
+    width:100%;
+    height:70px;
+    max-width: 1500px;
+    background: rgb(199, 197, 197); 
+}
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    width: 600px;
+    height: 300px;
+    padding: 30px 50px;
+    background-image: url(./img/Marvel_Studios_logo.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+    outline: 10px double red;
+}
+.photo{
+    width: 100%;
+    max-width: 800px;
+    height: 120px;
+    margin-top: 5%;
+    margin-left: 1%;
+    float: left;
+}
+
+img{
+    border: 4px double red;
+    margin: 15px;
+}
+div.girl{
+    margin-top: 70px;
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+    float: right;
+    text-align: justify;
+}
+.clear{
+    clear: right;
+}
+span{
+    color:black;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+p.boy{
+    font-size: 15px;
+    font-family: 'Roboto';;
+    font-weight: bold;  
+}
+hr{
+    border: none;
+    background-color: red;
+    color: red;
+    height: 2px;
+}
+div.girl:hover{
+    height: 450px;
+    width: 550px;
+    background-color: rgb(179, 32, 13);
+    transition: 1s;   
+}
+p.boy:hover{
+    transform: scale(0.8);
+}
+div.girl:hover p.boy{
+    color: rgb(241, 233, 233);
+}

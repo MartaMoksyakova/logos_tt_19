@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 50px;
+    background-color: #23252a;
+}
+.nav_links{
+    list-style: none;
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 20px 40px;
+    position: relative;
+
+}
+.nav_links li a{
+    transition: all .3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+.nav_links li:hover ul.s_links{
+    top: 59px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 269, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 269, 0,5);
+}
+
+.s_links{
+    position: absolute;
+    background-color: #23252a;
+    left: 0;
+    top: -390px;
+    transition: all .3s ease 0s;
+    z-index: -1;
+}
+.s_links li{
+    display: block;
+    padding: 20px 40px;
+    border-top: 1px solid #333;
+}
+.s_links li a{
+    transition: all .3s ease 0s;
+}
+.s_links li a:hover{
+    color: #0088a9;
+}
