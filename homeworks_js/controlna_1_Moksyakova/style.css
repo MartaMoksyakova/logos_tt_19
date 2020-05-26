@@ -1,0 +1,112 @@
+.main_text,
+.text_change,
+.choose_form{
+	width: 650px;
+	min-height: 250px;
+	color: black;
+	background-color: rgb(201, 200, 200);
+	padding: 10px 20px;
+	border: 2px solid rgb(121, 118, 118);
+	border-radius: 5px;
+	margin: auto;
+}
+button{
+	border-radius: 5px;
+}
+.main_text{
+    margin-top: 35px;
+    font-size: 18px;
+}
+.text_change{
+    margin-top: 20px;
+} 
+.edit_style_buttons {
+    text-align: center;
+}
+.text_area{
+    width: 600px;
+    height: 160px;
+}
+.edit{
+    background-color: #f2f55e;
+}
+.style{
+    background-color: #47d2f5;
+    color: white;
+} 
+.add{
+    background-color: #d34646;
+}
+.edit,
+.style,
+.add,
+.save{
+    width: 80px;
+    height: 35px;
+    margin-top: 15px;
+}
+.textarea_block,
+.style_block{
+    display: none;
+}
+.main_style_block{
+    display: flex;
+}
+.style_in_form{
+    width: 300px;
+}
+.styles{
+    margin: 7px 0;
+}
+.colors_of_text,
+.colors_background{
+    display: none;
+    margin: auto;
+}
+.colorsStyle_content{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-flow: wrap;
+}
+.color_text_block,
+.backgroundColor_block{
+    width: 60px;
+    height: 60px;
+}
+select[name="type_of_marks"]{
+    margin: 5px;
+    width: 550px;
+    padding: 5px;
+}
+input[type="text"]{
+    margin: 5px;
+    width: 550px;
+    padding: 5px;
+} 
+input[name="border_width"],
+select[name="border_color"],
+select[name="border_type"]{
+    width: 100px;
+    padding: 5px;
+} 
+.table{
+    display: none;
+    border-spacing: 0;
+}
+.create_table{
+    width: 100px;
+    height: 40px;
+}
+.list{
+    display: none;
+}
+.content_text{
+    display: block;
+}
+.choose_content{
+    display: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
