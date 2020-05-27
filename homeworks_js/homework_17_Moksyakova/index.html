@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container display_flex"><p class="date"></p><p class="timeLine"></p></div>
+    <div class="container display_flex">
+         <div class="stopWatch">
+            <span id="s_hours">00</span>:
+            <span id="s_minutes">00</span>:
+            <span id="s_seconds">00</span>:
+            <span id="s_ms">000</span>
+        </div>
+         <div class="button_style">
+            <button type="button" class="btn start" onclick="startStopwatch()">START</button>
+             <button type="button" class="btn loop">LOOP</button>
+             <button type="button" class="btn stop" onclick="stopStopwatch()">STOP</button>
+             <button type="button" class="btn reset" onclick="resetStopwatch()">RESET</button>
+        </div>
+         <div class="result display_flex">
+            <div class="store_box"> 
+                <p class="stop_watch_data"></p>
+         </div>
+        </div>
+    </div>
+    <div class="container display_flex">
+        <div class="display_flex">
+            <span class="minute">25</span>
+            <span class="textMinute">minutes</span>
+        </div>
+            <div class="button_bottom_style">
+                <button class="plus">+</button>
+            <button class="minus">-</button>
+            </div>
+            <div class="timer">
+                <p class="timerTime">00:00</p>
+                <button class="timerStart">START</button>
+                <button class="timerStop">STOP</button>
+                <button class="timerReset">RESET</button>
+            </div>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
