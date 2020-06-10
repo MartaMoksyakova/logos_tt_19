@@ -1,0 +1,32 @@
+.textInForm{
+    width: 700px;
+    margin: 0 auto;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+}
+
+input:focus-within {
+    border-color: rgb(0, 128, 255);
+}
+
+button{
+    width: 200px;
+    height: 45px;
+    border: rgb(116, 160, 243);
+    border-radius: 8px;
+    background-color: rgb(99, 143, 224);
+    outline: none;
+}
+
+.placeholderInput{
+    width: 600px;
+}
