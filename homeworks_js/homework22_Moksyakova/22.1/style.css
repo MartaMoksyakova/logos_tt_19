@@ -1,0 +1,14 @@
+body {
+    cursor: pointer;
+    background: rgb(173, 230, 216);
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(225, 0, 255);
+    position: absolute;
+    border: 2px solid black;
+   
+}
