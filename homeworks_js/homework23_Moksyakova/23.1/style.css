@@ -1,0 +1,356 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    overflow: hidden;
+  }
+  
+  body {
+    background: linear-gradient(45deg, #8B7AAE, #A4447E);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 1px;
+  }
+  
+  h1 {
+    font-family: Play, sans-serif;
+    text-align: center;
+    margin-top: 19px;
+    color: #fff;
+  }
+  
+  .address {
+    width: 524px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-family: Play, sans-serif;
+  }
+  .address input {
+    width: 450px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #8B7AAE;
+    outline: none !important;
+    padding-left: 2px;
+  }
+  .address input:focus {
+    border: 1px solid #A4447E;
+  }
+  
+  .puzzlify {
+    display: inline-block;
+    width: 70px;
+    height: 100%;
+    background: #2B1657;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    line-height: 25px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fff;
+  }
+  .puzzlify:hover {
+    box-shadow: 0 0 5px #2B1657;
+  }
+  
+  .puzzle-wrapper {
+    font-size: 0;
+    width: 524px;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-top: 40px;
+    position: relative;
+  }
+  
+  .dz {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid #fff;
+    background: #ccc;
+    opacity: 0.4;
+    overflow: hidden;
+  }
+  
+  .indz {
+    width: 250px;
+    height: 250px;
+    background-image: url("https://kiyutink.github.io/moscow/moscow1.jpg");
+    background-size: cover;
+  }
+  
+  .drop-zone {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 1rem;
+  }
+  
+  .container {
+    width: 250px;
+    height: 250px;
+    color: red;
+    display: inline-block;
+  }
+  
+  .pic {
+    width: 50px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #fff;
+    position: absolute;
+    z-index: 0;
+    font-size: 1rem;
+  }
+  
+  .inner-pic {
+    width: 250px;
+    height: 250px;
+    background-image: url("https://kiyutink.github.io/moscow/moscow1.jpg");
+    background-size: cover;
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+  
+  .grabbed {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+  
+  .inner-pic-1-1, .indz-1-1 {
+    background-position: 0px 0px;
+  }
+  
+  .pic-1-1 {
+    left: 0px;
+    top: 0px;
+  }
+  
+  .inner-pic-1-2, .indz-1-2 {
+    background-position: -50px 0px;
+  }
+  
+  .pic-1-2 {
+    left: 50px;
+    top: 0px;
+  }
+  
+  .inner-pic-1-3, .indz-1-3 {
+    background-position: -100px 0px;
+  }
+  
+  .pic-1-3 {
+    left: 100px;
+    top: 0px;
+  }
+  
+  .inner-pic-1-4, .indz-1-4 {
+    background-position: -150px 0px;
+  }
+  
+  .pic-1-4 {
+    left: 150px;
+    top: 0px;
+  }
+  
+  .inner-pic-1-5, .indz-1-5 {
+    background-position: -200px 0px;
+  }
+  
+  .pic-1-5 {
+    left: 200px;
+    top: 0px;
+  }
+  
+  .inner-pic-2-1, .indz-2-1 {
+    background-position: 0px -50px;
+  }
+  
+  .pic-2-1 {
+    left: 0px;
+    top: 50px;
+  }
+  
+  .inner-pic-2-2, .indz-2-2 {
+    background-position: -50px -50px;
+  }
+  
+  .pic-2-2 {
+    left: 50px;
+    top: 50px;
+  }
+  
+  .inner-pic-2-3, .indz-2-3 {
+    background-position: -100px -50px;
+  }
+  
+  .pic-2-3 {
+    left: 100px;
+    top: 50px;
+  }
+  
+  .inner-pic-2-4, .indz-2-4 {
+    background-position: -150px -50px;
+  }
+  
+  .pic-2-4 {
+    left: 150px;
+    top: 50px;
+  }
+  
+  .inner-pic-2-5, .indz-2-5 {
+    background-position: -200px -50px;
+  }
+  
+  .pic-2-5 {
+    left: 200px;
+    top: 50px;
+  }
+  
+  .inner-pic-3-1, .indz-3-1 {
+    background-position: 0px -100px;
+  }
+  
+  .pic-3-1 {
+    left: 0px;
+    top: 100px;
+  }
+  
+  .inner-pic-3-2, .indz-3-2 {
+    background-position: -50px -100px;
+  }
+  
+  .pic-3-2 {
+    left: 50px;
+    top: 100px;
+  }
+  
+  .inner-pic-3-3, .indz-3-3 {
+    background-position: -100px -100px;
+  }
+  
+  .pic-3-3 {
+    left: 100px;
+    top: 100px;
+  }
+  
+  .inner-pic-3-4, .indz-3-4 {
+    background-position: -150px -100px;
+  }
+  
+  .pic-3-4 {
+    left: 150px;
+    top: 100px;
+  }
+  
+  .inner-pic-3-5, .indz-3-5 {
+    background-position: -200px -100px;
+  }
+  
+  .pic-3-5 {
+    left: 200px;
+    top: 100px;
+  }
+  
+  .inner-pic-4-1, .indz-4-1 {
+    background-position: 0px -150px;
+  }
+  
+  .pic-4-1 {
+    left: 0px;
+    top: 150px;
+  }
+  
+  .inner-pic-4-2, .indz-4-2 {
+    background-position: -50px -150px;
+  }
+  
+  .pic-4-2 {
+    left: 50px;
+    top: 150px;
+  }
+  
+  .inner-pic-4-3, .indz-4-3 {
+    background-position: -100px -150px;
+  }
+  
+  .pic-4-3 {
+    left: 100px;
+    top: 150px;
+  }
+  
+  .inner-pic-4-4, .indz-4-4 {
+    background-position: -150px -150px;
+  }
+  
+  .pic-4-4 {
+    left: 150px;
+    top: 150px;
+  }
+  
+  .inner-pic-4-5, .indz-4-5 {
+    background-position: -200px -150px;
+  }
+  
+  .pic-4-5 {
+    left: 200px;
+    top: 150px;
+  }
+  
+  .inner-pic-5-1, .indz-5-1 {
+    background-position: 0px -200px;
+  }
+  
+  .pic-5-1 {
+    left: 0px;
+    top: 200px;
+  }
+  
+  .inner-pic-5-2, .indz-5-2 {
+    background-position: -50px -200px;
+  }
+  
+  .pic-5-2 {
+    left: 50px;
+    top: 200px;
+  }
+  
+  .inner-pic-5-3, .indz-5-3 {
+    background-position: -100px -200px;
+  }
+  
+  .pic-5-3 {
+    left: 100px;
+    top: 200px;
+  }
+  
+  .inner-pic-5-4, .indz-5-4 {
+    background-position: -150px -200px;
+  }
+  
+  .pic-5-4 {
+    left: 150px;
+    top: 200px;
+  }
+  
+  .inner-pic-5-5, .indz-5-5 {
+    background-position: -200px -200px;
+  }
+  
+  .pic-5-5 {
+    left: 200px;
+    top: 200px;
+  }
+  
