@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    z-index: 100;
+}
+.background {
+    width: 220px;
+    height: 350px;
+    background-color: rgb(5, 5, 5);
+    z-index: 0;
+    margin-left: 525px;
+    margin-top: 155px;
+}
+.battery {
+    width: 220px;
+    height: 325px;
+    position: absolute;
+    background-color: rgb(18, 153, 18);
+    margin-left: 525px;
+    margin-top: -330px;
+}
+.minutes, .text {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.minutes {
+    left: 56.5%;
+    top: 40%;
+    font-size: 70px;
+}
+.text {
+    left: 54%;
+    top: 50%;
+    font-size: 30px;
+}
